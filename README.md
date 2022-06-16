@@ -12,7 +12,7 @@ Este script foi testado no Debian 11 e Lubuntu 22.04, mas deve funcionar em outr
 Execute o script de instação com o comando abaixo:
 
 ```bash
-curl https://raw.githubusercontent.com/LabRobotica/RobixLinux/main/robix-debian.sh | sudo bash
+curl https://raw.githubusercontent.com/LabRobotica/RobixLinux/main/robix-debian.sh | bash
 ```
 
 Leia atentamente as mensagens do terminal a procura de algum erro. Caso algum erro aconteça, o instalador será finalizado precomente, sem a mensagem "Instalação do CoppeliaSim finalizada com sucesso".
