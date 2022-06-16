@@ -13,6 +13,10 @@ echo "---> Instalando CoppeliaSim em /opt/ <---"
 echo ""
 sudo tar -xvf CoppeliaSim_Edu_V4_3_0_Ubuntu20_04.tar.xz -C /opt/
 echo ""
+echo "---> Deletando instalador <---"
+echo ""
+rm CoppeliaSim_Edu_V4_3_0_Ubuntu20_04.tar.xz
+echo ""
 echo "---> Renomeando instalação para /opt/CoppeliaSim <---"
 echo ""
 sudo mv /opt/CoppeliaSim_Edu_V4_3_0_Ubuntu20_04 /opt/CoppeliaSim
